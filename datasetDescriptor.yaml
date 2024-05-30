@@ -1,0 +1,12 @@
+#Zamjeniti train i val s putanjama do train i test 
+
+train: ../dataset/images/train
+val: ../dataset/images/test
+
+train_labels: ../dataset/labels/train
+val_labels: ../dataset/labels/train
+
+nc: 2
+
+# class names
+names: ['crosswalk', 'guide_arrows']
